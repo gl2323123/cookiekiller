@@ -6,6 +6,6 @@ cookieImage.onclick = function () {
 
     let currentClicks = parseInt(cookieClick.textContent);
     cookieClick.textContent = currentClicks + 1;
-    cookie.width = 180;
+    cookie.width = 100;
     setTimeout(() => {cookie.width = 200;}, 50);
   }
